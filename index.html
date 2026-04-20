@@ -226,7 +226,7 @@ function changeGaiso(i){
 
 <div class="option-grid">
       <div class="option-card" onclick="cardSelect('oldRoof${i}','kawara',this,null,${i})">瓦</div>
-      <div class="option-card" onclick="cardSelect('oldRoof${i}','col',this,null,${i})">コロニアル（カラーベスト）</div>
+      <div class="option-card" onclick="cardSelect('oldRoof${i}','col',this,null,${i})">コロニアル<br>（カラーベスト）</div>
       <div class="option-card" onclick="cardSelect('oldRoof${i}','bankin',this,null,${i})">板金</div>
       <div class="option-card" onclick="cardSelect('oldRoof${i}','other',this,null,${i})">その他</div>
 
@@ -234,7 +234,7 @@ function changeGaiso(i){
 
     <select id="oldRoof${i}" style="display:none;">
       <option value="kawara">瓦</option>
-      <option value="col">コロニアル（カラーベスト）</option>
+      <option value="col">コロニアル<br>（カラーベスト）</option>
       <option value="bankin">板金</option>
       <option value="other">その他</option>
     </select><br>
@@ -257,7 +257,7 @@ function changeGaiso(i){
 
 <select id="kouji${i}" style="display:none;">
   <option value="replace">葺き替え工事</option>
-  <option value="cover">カバー工事（既存屋根瓦施工不可）</option>
+  <option value="cover">カバー工事<br>（既存屋根瓦施工不可）</option>
 </select>
 
 屋根材
@@ -275,13 +275,13 @@ function changeGaiso(i){
     既存屋根材
 
 <div class="option-grid">
-      <div class="option-card" onclick="cardSelect('oldRoof${i}','col',this,null,${i})">コロニアル（カラーベスト）</div>
+      <div class="option-card" onclick="cardSelect('oldRoof${i}','col',this,null,${i})">コロニアル<br>（カラーベスト）</div>
       <div class="option-card" onclick="cardSelect('oldRoof${i}','bankin',this,null,${i})">板金</div>
       <div class="option-card" onclick="cardSelect('oldRoof${i}','other',this,null,${i})">その他</div>
 </div>
 
   <select id="oldRoof${i}" style="display:none;">
-    <option value="col">コロニアル（カラーベスト）</option>
+    <option value="col">コロニアル<br>（カラーベスト）</option>
     <option value="bankin">板金</option>
     <option value="other">その他</option>
   </select><br>
@@ -306,7 +306,7 @@ function changeGaiso(i){
     既存外壁材
 
 <div class="option-grid">
-      <div class="option-card" onclick="cardSelect('oldgaiheki${i}','moltal',this,null,${i})">モルタル（塗り壁）</div>
+      <div class="option-card" onclick="cardSelect('oldgaiheki${i}','moltal',this,null,${i})">モルタル<br>（塗り壁）</div>
       <div class="option-card" onclick="cardSelect('oldgaiheki${i}','yougyo',this,null,${i})">窯業系サイディング</div>
       <div class="option-card" onclick="cardSelect('oldgaiheki${i}','metal',this,null,${i})">金属系サイディング</div>
       <div class="option-card" onclick="cardSelect('oldgaiheki${i}','other',this,null,${i})">その他</div>
@@ -314,7 +314,7 @@ function changeGaiso(i){
 </div>
 
   <select id="oldgaiheki${i}" style="display:none;">
-    <option value="moltal">モルタル（塗り壁）</option>
+    <option value="moltal">モルタル<br>（塗り壁）</option>
     <option value="yougyo">窯業系サイディング</option>
     <option value="metal">金属系サイディング</option>
     <option value="other">その他</option>
@@ -343,7 +343,7 @@ function changeGaiso(i){
     既存外壁材
 
 <div class="option-grid">
-      <div class="option-card" onclick="cardSelect('oldgaiheki${i}','moltal',this,null,${i})">モルタル（塗り壁）</div>
+      <div class="option-card" onclick="cardSelect('oldgaiheki${i}','moltal',this,null,${i})">モルタル<br>（塗り壁）</div>
       <div class="option-card" onclick="cardSelect('oldgaiheki${i}','yougyo',this,null,${i})">窯業系サイディング</div>
       <div class="option-card" onclick="cardSelect('oldgaiheki${i}','metal',this,null,${i})">金属系サイディング</div>
       <div class="option-card" onclick="cardSelect('oldgaiheki${i}','tail',this,null,${i})">タイル</div>
@@ -351,7 +351,7 @@ function changeGaiso(i){
 </div>
 
   <select id="oldgaiheki${i}" style="display:none;">
-    <option value="moltal">モルタル（塗り壁）</option>
+    <option value="moltal">モルタル<br>（塗り壁）</option>
     <option value="yougyo">窯業系サイディング</option>
     <option value="metal">金属系サイディング</option>
     <option value="tail">タイル</option>
@@ -362,12 +362,12 @@ function changeGaiso(i){
 
 <div class="option-grid">
       <div class="option-card" onclick="cardSelect('gaihekiKouji${i}','replace',this,null,${i})">張り替え工事</div>
-      <div class="option-card" onclick="cardSelect('gaihekiKouji${i}','cover',this,null,${i})">カバー工事（既存モルタル・タイル不可）</div>
+      <div class="option-card" onclick="cardSelect('gaihekiKouji${i}','cover',this,null,${i})">カバー工事<br>（既存モルタル・タイル不可）</div>
 </div>
 
     <select id="gaihekiKouji${i}" style="display:none;">
       <option value="replace">張り替え工事</option>
-      <option value="cover">カバー工事（既存モルタル・タイル不可）</option>
+      <option value="cover">カバー工事<br>（既存モルタル・タイル不可）</option>
     </select><br>
 
     外壁材
@@ -448,15 +448,15 @@ function changeRoofMaterial(i){
     ["14500","ディプロマットスター<br>（砂付き板金）"],
     ["14000","スーパーガルテクト<br>（断熱材付き板金）"],
     ["11500","タフワイド220<br>（横葺き板金）"],
-    ["12000","オークリッジスーパー<br>（アスファルトシングル）"]
+    ["9500","オークリッジスーパー<br>（アスファルトシングル）"]
   ]
   : [
     ["17600","ディプロマットスター<br>（砂付き板金）"],
     ["17100","スーパーガルテクト<br>（断熱材付き板金）"],
     ["14600","タフワイド220<br>（横葺き板金）"],
-    ["15100","オークリッジスーパー<br>（アスファルトシングル）"],
+    ["12600","オークリッジスーパー<br>（アスファルトシングル）"],
     ["14600","タフビーム455<br>（瓦棒板金）"],
-    ["13100","コロニアル<br>（カラーベスト）"]
+    ["10800","コロニアル<br>（カラーベスト）"]
   ];
 
   select.innerHTML = list.map(v => `<option value="${v[0]}">${v[1]}</option>`).join("");
